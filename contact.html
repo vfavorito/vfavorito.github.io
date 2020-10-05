@@ -26,25 +26,33 @@
             </div>
         </div>
     </nav>
-    <!-- This is a jumbotron nesting a form -->
-    <div class="jumbotron">
-        <h1 class="display-4">Contact Info</h1>
-        <hr class="my-4">
-        <form>
-            <div class="form-group">
-                <label for="nameLine">Name:</label>
-                <input type="email" class="form-control" id="nameLine" placeholder="First Name Last Name" aria-describedby="emailHelp">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <!-- This is a jumbotron nesting a form -->
+                <div class="jumbotron">
+                    <h1 class="display-4">Contact Info</h1>
+                    <hr class="my-4">
+                    <form>
+                        <div class="form-group">
+                            <label for="nameLine">Name:</label>
+                            <input type="email" class="form-control" id="nameLine" placeholder="First Name Last Name"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="emailLine">Email:</label>
+                            <input type="email" class="form-control" id="emailLine" placeholder="Email Address"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="messageBox">What's This About?</label>
+                            <textarea class="form-control" id="messageBox" placeholder="Message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="emailLine">Email:</label>
-                <input type="email" class="form-control" id="emailLine" placeholder="Email Address" aria-describedby="emailHelp">
-            </div>
-            <div class="form-group">
-                <label for="messageBox">What's This About?</label>
-                <textarea class="form-control" id="messageBox" placeholder="Message" rows="3"></textarea>
-              </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        </div>
     </div>
 </body>
 
