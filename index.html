@@ -1,42 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-    <link rel="stylesheet" href ="reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Vincent Favorito</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" href="#">About Me <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-link" href="contact.html">Contact Me</a>
-          </div>
-        </div>
-      </nav>
-      <!-- This is the start of my container -->
-    <div class="container">
-      <br>
-      <br>
-      <div class="row">
-        <!-- this is the jumbotron -->
-        <div class="col-md-8">
-          <div class="jumbotron">
-            <h1 class="display-4">About Me</h1>
-            <hr class="my-4">
-            <img src="">
-          </div>
-        </div>
-        <div class="col-md-4"></div>
-      </div> 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Vincent Favorito</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" href="#">About Me <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-link" href="contact.html">Contact Me</a>
+      </div>
     </div>
+  </nav>
+  <!-- This is the start of my container -->
+  <div class="container">
+    <br>
+    <br>
+    <div class="row">
+      <!-- this is the jumbotron -->
+      <div class="col-md-8">
+        <div class="jumbotron">
+          <h1 class="display-4">About Me</h1>
+          <hr class="my-4">
+          <!-- this is a horizontal card nested in the jumbotron -->
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="">
+         
+              </div>
+              <!-- this is the text portion of my horizontal card -->
+              <div class="col-md-8">
+                <div class="card-body">
+                  <p class="card-text">Insert bio here</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+  </div>
 </body>
+
 </html>
