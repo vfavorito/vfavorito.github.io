@@ -1,0 +1,13 @@
+#bioPic{
+    width: 200px;
+    height: 225px;
+    margin: 10px;
+    float: left;
+    border-radius: 50%;
+}
+#bioText{
+    font-size: large;
+}
+#bio{
+    background-color: lightgray;
+}
