@@ -1,3 +1,7 @@
+body{
+    background-image: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+}
 #bioPic{
     width: 200px;
     height: 225px;
@@ -5,26 +9,18 @@
     float: left;
     border-radius: 50%;
 }
-#bioText{
+
+#bioText, #cardText, #formText{
     font-size: large;
+    font-family: 'Squada One', cursive;
 }
 
-#backBio{
-    background-color: white;
-}
-body{
-    background-image: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+#bioBack, #cardBack, #jumboBack{
+    background-image: url("https://images.pexels.com/photos/82256/pexels-photo-82256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: cover;
 }
-#portfolioHead{
-    color: white;
-    font-family: 'Fredericka the Great', cursive;
-}
-#aboutMeHead{
-    color: white;
-    font-family: 'Fredericka the Great', cursive;
-}
-#contactHead{
+
+#aboutMeHead, #portfolioHead, #contactHead{
     color: white;
     font-family: 'Fredericka the Great', cursive;
 }
