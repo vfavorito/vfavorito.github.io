@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contact Info</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -33,32 +33,29 @@
     <br>
     <div class="container">
         <div class="row">
-            <header class="col-md-8" id="bio">
+            <header class="col-sm-8 col-xs-12" id="bio">
                 <H1 id="contactHead">
                     Contact Info
                 </H1>
 
             </header>
-            <div class="col-md-4"></div>
+            <div class="col-sm-4 col-xs-0"></div>
         </div>
         <br>
         <br>
         <section class="row">
-            <div class="col-md-8">
-                <!-- This is a jumbotron nesting a form -->
+            <div class="col-sm-8 col-xs-12">
+                <!-- This is a jumbotron -->
                 <div class="jumbotron" id="jumboBack">
-                    <!-- <h1 class="display-4">Contact Info</h1>
-                    <hr class="my-4"> -->
                     <form>
+                        <!-- this is a form nested in the jumbotron -->
                         <div class="form-group">
                             <label for="nameLine" id="formText1">Name:</label>
-                            <input type="email" class="form-control" id="nameLine" placeholder="First Name Last Name"
-                                aria-describedby="emailHelp">
+                            <input type="email" class="form-control" id="nameLine" placeholder="First Name Last Name">
                         </div>
                         <div class="form-group">
                             <label for="emailLine" id="formText2">Email:</label>
-                            <input type="email" class="form-control" id="emailLine" placeholder="Email Address"
-                                aria-describedby="emailHelp">
+                            <input type="email" class="form-control" id="emailLine" placeholder="Email Address">
                         </div>
                         <div class="form-group">
                             <label for="messageBox" id="formText3">What's This About?</label>
@@ -68,6 +65,8 @@
                     </form>
                 </div>
             </div>
+            <!-- this is a spacing column after the jumbotron -->
+            <div class="col-sm-4 col-xs-0"></div>
         </section>
     </div>
 </body>
