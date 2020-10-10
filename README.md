@@ -22,7 +22,7 @@ In this repository I created my own Responsive Portfolio.  What I mean by respon
  ![ContactInfoPage](Images/largecontact.PNG)     
 
 ### Example
-Here is a link to the Portfolio:  [https://vfavorito.github.io/Vfavorito-Portfolio/](https://vfavorito.github.io/Vfavorito-Portfolio/)
+Here is a link to the Portfolio:  [https://vfavorito.github.io/Vfavorito-Portfolio/](https://vfavorito.github.io/)
 
 ### Installation
 To install this project simply clone this repository to your local directory and access it using Visual Studio Code
