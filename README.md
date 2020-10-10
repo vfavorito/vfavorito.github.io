@@ -5,13 +5,17 @@
 ### Overview:
 In this repository I created my own Responsive Portfolio.  What I mean by responsive is the portfolio will change its appearance based on the size of the screen of the device viewing it! This was primarily accomplished using Bootstrap grids and components.  The repository is made up of three seperate HTML pages that are linked to each other via a navbar on the top of the page.
 
-### Pages on small devices (screen widths of 576px or less)
+## Pages on small devices (screen widths of 575px or less)
 
-![SmallAboutMePage]() ![SmallPortfolioPage]() ![SmallContactInfoPage]()
+![SmallAboutMePage](Images/smallabout.PNG)      
 
-### Pages on all other devices (screen widths of 577px and up)
+![SmallPortfolioPage](Images/smallportfolio.PNG)       
 
-![AboutMePage]() ![PortfolioPage]() ![ContactInfoPage]()
+![SmallContactInfoPage](Images/smallcontact.PNG)
+
+## Pages on all other devices (screen widths of 576px and up)
+
+![AboutMePage](Images/largeabout.PNG) ![PortfolioPage](Images/largeportfolio.PNG) ![ContactInfoPage](Images/largecontact.PNG)
 
 ### Example
 Here is a link to the Portfolio:  [https://vfavorito.github.io/Vfavorito-Portfolio/](https://vfavorito.github.io/Vfavorito-Portfolio/)
