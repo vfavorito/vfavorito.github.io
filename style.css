@@ -10,6 +10,12 @@ body{
     border-radius: 50%;
 }
 
+#contactHead
+{
+    font-size: xx-large;
+    font-family: 'Squada One', cursive;
+}
+
 .textStyle{
     font-size: large;
     font-family: 'Squada One', cursive;
