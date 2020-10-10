@@ -10,17 +10,17 @@ body{
     border-radius: 50%;
 }
 
-#bioText, #projectText1, #projectText2, #projectText3, #projectText4, #projectText5, #projectText6, #formText1, #formText2, #formText3{
+.textStyle{
     font-size: large;
     font-family: 'Squada One', cursive;
 }
 
-#bioBack, #cardBack1, #cardBack2, #cardBack3, #cardBack4, #cardBack5, #cardBack6, #jumboBack{
+.elementBack{
     background-image: url("https://images.pexels.com/photos/82256/pexels-photo-82256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: cover;
 }
 
-#aboutMeHead, #portfolioHead, #contactHead{
+.headStyle{
     color: white;
     font-family: 'Fredericka the Great', cursive;
 }
