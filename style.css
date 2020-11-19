@@ -44,12 +44,16 @@ body{
     font-family: 'Squada One', cursive;
 }
 
-.elementBack{
+.aboutMeBack{
     background-image: url("https://images.pexels.com/photos/82256/pexels-photo-82256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: cover;
     border-radius:5%;
 }
-
+.contactMeBack{
+    background-image: url("https://images.pexels.com/photos/168442/pexels-photo-168442.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    border-radius:5%;
+}
 .headStyle{
     color: white;
     font-family: 'Fredericka the Great', cursive;
