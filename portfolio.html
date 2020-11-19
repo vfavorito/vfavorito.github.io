@@ -11,17 +11,7 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
 </head>
-
 <body>
   <!-- this is the nav bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -48,74 +38,32 @@
   <br>
   <!-- this is the start of the container -->
   <div class="container">
-    <!-- row 1 -->
     <header class="row">
-      <div class="col-sm-8 col-xs-12 headStyle">
+      <div class="col-sm-12 col-xs-12 headStyle">
         <H1>
           My Projects
         </H1>
       </div>
-      <!-- this is a spacing column -->
-      <div class="col-sm-4 col-xs-0"></div>
     </header>
     <br>
     <br>
-    <!-- this is the second row showing projects displayed in a card deck -->
     <div class="row">
-      <div class="card-deck">
-        <article class="card col-sm-3 col-xs-4 elementBack">
-          <br>
-          <img class= "projectPic" src="images/marvelCards.PNG" class="card-img-top" alt="Marvel Cards Project">
-          <div class="card-body">
-            <h5 class="card-text textStyle">
-              Marvel Character Cards
-              <br>
-            </h5>
-            <p>Marvel character cards is an app that allows you to search marvel characters. Upon selection of a
-              character a theme song is played and the user is given the ability to make a card of that character.
-            </p>
-            <br>
-            <br>
-            <a href="https://vfavorito.github.io/Marvel-Cards/" target="_blank"><strong>Live Link</strong></a>
-            <br>
-            <a href="https://github.com/vfavorito/Marvel-Cards" target="_blank"><strong>Github Repo</strong></a>
-
-          </div>
-        </article>
-        <article class="card col-sm-3 col-xs-4 elementBack">
-          <br>
-          <img class= "projectPic" src="images/vinnieWeather.PNG" class="card-img-top" alt="vinnieWEATHER Project">
-          <div class="card-body">
-            <h5 class="card-text textStyle">
-              vinnieWEATHER
-              <br>
-            </h5>
-            <p>vinnieWEATHER is an app that displays a weather dashboard. The User is able to add any city to the
-              dashboard and upon selecting a city The current days weather is displayed as well as a five day forecast.
-            </p>
-            <br>
-            <a href="https://vfavorito.github.io/weather-app/" target="_blank"><strong>Live Link</strong></a>
-            <br>
-            <a href="https://github.com/vfavorito/weather-app" target="_blank"><strong>Github Repo</strong></a>
-          </div>
-        </article>
-        <article class="card col-sm-3 col-xs-4 elementBack">
-          <br>
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="placeholder">
-          <div class="card-body">
-            <h5 class="card-text textStyle">
-              Project 3
-              <br>
-              <br>
-              <a href="" target="_blank">Click Here For Project 3</a>
-            </h5>
-          </div>
-        </article>
-        <div class="col-sm-3 col-xs-0"></div>
-      </div>
+      <div class="col-sm-12 col-xs-12" id="projects"></div>
     </div>
     <br>
   </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="portfolio.js"></script>
 </body>
 
 </html>
