@@ -1,6 +1,29 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .container {
+    min-height: 100%;
+    margin-bottom: -57px;
+    grid-auto-flow:dense;
+  }
+  #space{
+      height:62px;
+  }
 body{
     background-image: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: cover;
+}
+.footer{
+    background-image: url("https://images.pexels.com/photos/1655901/pexels-photo-1655901.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    color:white;
+    text-align: center;
+    padding:7px;
+    font-size:large;
+    font-weight: bold;
+}
+.navbar{
+    background-image: url("https://images.pexels.com/photos/1655901/pexels-photo-1655901.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
 #bioPic{
     width: 200px;
@@ -24,6 +47,7 @@ body{
 .elementBack{
     background-image: url("https://images.pexels.com/photos/82256/pexels-photo-82256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: cover;
+    border-radius:5%;
 }
 
 .headStyle{

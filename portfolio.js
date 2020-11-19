@@ -22,7 +22,6 @@ projects.forEach( projects => {
     let proPic = $("<img>");
     proPic.addClass("projectPic");
     proPic.attr("src",projects.pic);
-    console.log(projects.pic);
     let proName = $("<h5>");
     proName.addClass("projectName")
     proName.text(projects.name);
