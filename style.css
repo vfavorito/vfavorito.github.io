@@ -60,7 +60,7 @@ body{
     display: inline-block;
     margin: 25px;
     width:290px;
-    height:500px;
+    height:450px;
     text-align: center;
     border-radius:5%;
     font-family: 'Squada One', cursive;
@@ -91,7 +91,7 @@ body{
 }
 
 .projectDesc{
-    margin-top: 50px;
+    margin-top: 25px;
     font-weight: 575;
     position:relative;
     bottom:110px;
