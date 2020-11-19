@@ -39,6 +39,7 @@ body{
     height:500px;
     text-align: center;
     border-radius:5%;
+    font-family: 'Squada One', cursive;
 }
 .nailPic{
     margin-right:auto;
@@ -62,6 +63,7 @@ body{
 .projectName{
     position:relative;
     bottom:110px;
+    text-decoration: underline;
 }
 
 .projectDesc{
