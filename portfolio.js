@@ -1,3 +1,4 @@
+// array of projects I want displayed on page
 let projects = [
     {
         name: "Marvel Character Cards",
@@ -14,6 +15,7 @@ let projects = [
         repoLink: "https://github.com/vfavorito/weather-app"
     },
 ]
+// function that creates project blocks on page
 projects.forEach( projects => {
     let divEl = $("<div>");
     divEl.addClass("projectDiv");
