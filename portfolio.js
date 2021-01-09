@@ -14,6 +14,13 @@ let projects = [
         liveLink: "https://vfavorito.github.io/weather-app/",
         repoLink: "https://github.com/vfavorito/weather-app"
     },
+    {
+        name: "Burger-Simulator",
+        pic: "Images/burger-simulator.PNG",
+        description: "Burger-Simulator is a burger eating dashboard.  The User is able to add a burger then devour it.  The burgers added and devoured are saved to a remote database so you can add one now and devour it later!",
+        liveLink: "https://vfavorito-burger-simulator.herokuapp.com/",
+        repoLink: "https://github.com/vfavorito/burger-simulator"
+    }
 ]
 // function that creates project blocks on page
 projects.forEach( projects => {
