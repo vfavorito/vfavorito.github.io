@@ -13,11 +13,24 @@ html, body {
   }
   /* css for sticky footer end */
 body{
-    background-image: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 100vh;
+    max-width: 100%;
+    margin: auto;
+    background: url("https://images.pexels.com/photos/1655901/pexels-photo-1655901.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center
+    fixed;
     background-size: cover;
 }
+.wood{
+    background-image: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height:100%;
+    width:100%;
+    background-size:cover;
+    z-index:1;
+    position:absolute;
+}
 .footer{
-    background-image: url("https://images.pexels.com/photos/1655901/pexels-photo-1655901.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    z-index:3;
+    background-color: transparent;
     color:white;
     text-align: center;
     padding:7px;
@@ -25,7 +38,8 @@ body{
     font-weight: bold;
 }
 .navbar{
-    background-image: url("https://images.pexels.com/photos/1655901/pexels-photo-1655901.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-color: transparent;
+    z-index:2;
 }
 #bioPic{
     width: 200px;
@@ -50,6 +64,7 @@ body{
     background-image: url("https://images.pexels.com/photos/82256/pexels-photo-82256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: cover;
     border-radius:5%;
+    z-index:2;
 }
 .contactMeBack{
     background-image: url("https://images.pexels.com/photos/168442/pexels-photo-168442.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -57,20 +72,24 @@ body{
     border-radius:5%;
 }
 .headStyle{
+    z-index:2;
     color: white;
     font-family: 'Fredericka the Great', cursive;
 }
 /* start css for project blocks */
+
 .projectDiv{
+    position:relative;
     background-image: url("https://images.pexels.com/photos/4039781/pexels-photo-4039781.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-size: cover;
     display: inline-block;
-    margin: 25px;
+    margin: 40px;
     width:290px;
     height:450px;
     text-align: center;
     border-radius:5%;
     font-family: 'Squada One', cursive;
+    z-index:2;
 }
 .nailPic{
     margin-right:auto;
@@ -81,6 +100,7 @@ body{
     position:relative;
     bottom:70px;
     right:25px;
+    z-index:3;
 }
 .projectPic{
     height:150px;
@@ -90,11 +110,13 @@ body{
     margin-bottom: 50px;
     position:relative;
     bottom:90px;
+    z-index:3;
 }
 .projectName{
     position:relative;
     bottom:110px;
     text-decoration: underline;
+    z-index:3;
 }
 
 .projectDesc{
@@ -102,11 +124,13 @@ body{
     font-weight: 575;
     position:relative;
     bottom:110px;
+    z-index:3;
 }
 .projectLinks{
     display:block;
     position:relative;
     bottom:110px;
     font-weight: 575;
+    z-index:3;
 }
 /* css for project blocks end */

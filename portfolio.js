@@ -1,6 +1,13 @@
 // array of projects I want displayed on page
 let projects = [
     {
+        name: "Pōchidoeggu",
+        pic: "Images/pochidoeggu.PNG",
+        description: "Pōchidoeggu lets you create an account which is saved via MySQL then login using Passport to authenticate.  Once logged in you are able to play with a virtual pet with css animations to feed, walk, or sleep your pet.",
+        liveLink: "https://pochidoeggu.herokuapp.com/",
+        repoLink: "https://github.com/vfavorito/pochidoeggu"
+    },
+    {
         name: "Marvel Character Cards",
         pic: "Images/marvelCards.PNG",
         description: "Marvel character cards is an app that allows you to search marvel characters.  Upon selection of a character a theme song is played and the user is given the ability to make a card of that character.",
