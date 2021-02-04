@@ -41,6 +41,10 @@ body{
     background-color: transparent;
     z-index:2;
 }
+
+#navbarBtn{
+    background-color: gray;
+}
 #bioPic{
     width: 200px;
     height: 225px;
