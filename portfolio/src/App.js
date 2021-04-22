@@ -12,7 +12,7 @@ import Navigation from "./components/navbar/navbar.jsx";
 function App() {
 
   return (
-    <Container fluid>
+    <div>
       <Navigation />
       <BrowserRouter>
         <Switch>
@@ -30,7 +30,7 @@ function App() {
           </Route>
         </Switch>
       </BrowserRouter>
-    </Container>
+    </div>
   );
 }
 
