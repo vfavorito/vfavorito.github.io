@@ -1,19 +1,29 @@
 import { React } from "react";
-import { Navbar, Nav } from "react-bootstrap"
+import { Row, Col } from "react-bootstrap"
+import "./navbar.css"
 
 function Navigation() {
 
+    let redirect = (event) => {
+        let target= event.target.dataset.location;
+        window.location.assign("http://localhost:3000" + target);
+    };
+
     return (
-        <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="/">Vincent Favorito</Navbar.Brand>
-            <Navbar.Toggle />
-            <Navbar.Collapse>
-                <Nav className="mr-auto">
-                    <Nav.Link href="/projects">Projects</Nav.Link>
-                    <Nav.Link href="/contact">Contact Me</Nav.Link>
-                </Nav>
-            </Navbar.Collapse>
-        </Navbar>
+       <Row className="navBar">
+           <Col sm={2} className="navItem" onClick={redirect} >
+           <h3 data-location="/">Vincent Favorito</h3>
+           </Col>
+           <Col sm={2} className="navItem" onClick={redirect}>
+           <h5 className="navText" data-location="/projects">Project Vault</h5>
+           </Col>
+           <Col sm={2} className="navItem" onClick={redirect}>
+           <h5 className="navText" data-location="/contact">Contact Me</h5>
+           </Col>
+           <Col sm={2} className="navItem" onClick={redirect}>
+           <h5 className="navText" data-location="/resume">Resume</h5>
+           </Col>
+       </Row>
     );
 };
 

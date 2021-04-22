@@ -1,8 +1,10 @@
 import { React } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom"
-import Home from "./pages/home";
-import Projects from "./pages/projects";
-import Contact from "./pages/contact";
+import { Container } from "react-bootstrap"
+import Home from "./pages/Home/home";
+import Projects from "./pages/Projects/projects";
+import Contact from "./pages/Contact/contact";
+import Resume from "./pages/Resume/resume"
 import Navigation from "./components/navbar/navbar.jsx";
 
 
@@ -10,7 +12,7 @@ import Navigation from "./components/navbar/navbar.jsx";
 function App() {
 
   return (
-    <>
+    <Container fluid>
       <Navigation />
       <BrowserRouter>
         <Switch>
@@ -23,9 +25,12 @@ function App() {
           <Route exact path="/contact">
             <Contact />
           </Route>
+          <Route exact path="/resume">
+            <Resume />
+          </Route>
         </Switch>
       </BrowserRouter>
-    </>
+    </Container>
   );
 }
 
