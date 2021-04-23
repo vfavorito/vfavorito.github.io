@@ -1,11 +1,9 @@
 import { React } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom"
-import { Container } from "react-bootstrap"
 import Home from "./pages/Home/home";
 import Projects from "./pages/Projects/projects";
 import Contact from "./pages/Contact/contact";
-import Resume from "./pages/Resume/resume"
-import Navigation from "./components/navbar/navbar.jsx";
+import Navigation from "./components/Navbar/navbar.jsx";
 
 
 
@@ -24,9 +22,6 @@ function App() {
           </Route>
           <Route exact path="/contact">
             <Contact />
-          </Route>
-          <Route exact path="/resume">
-            <Resume />
           </Route>
         </Switch>
       </BrowserRouter>

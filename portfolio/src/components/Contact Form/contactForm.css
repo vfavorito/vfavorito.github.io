@@ -1,0 +1,15 @@
+.formHead{
+    text-align: right;
+    margin-bottom:15px;
+    position:relative;
+    text-decoration: underline;
+}
+.contactForm{
+    margin-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+    background-image: url("https://images.pexels.com/photos/1558690/pexels-photo-1558690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}

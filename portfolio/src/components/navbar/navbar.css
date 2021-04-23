@@ -3,10 +3,12 @@
     position:sticky;
     top:0;
 }
-.navText{
-    position:relative;
-    top:7px;
+.navItem{
+    display: inline-block;
+    text-align: right;
+    margin-right:25px;
 }
 .navItem:hover{
     color:white;
+    cursor:pointer;
 }

@@ -1,5 +1,4 @@
 import { React } from "react";
-import { Row, Col } from "react-bootstrap"
 import "./navbar.css"
 
 function Navigation() {
@@ -10,20 +9,17 @@ function Navigation() {
     };
 
     return (
-       <Row className="navBar">
-           <Col sm={2} className="navItem" onClick={redirect} >
-           <h3 data-location="/">Vincent Favorito</h3>
-           </Col>
-           <Col sm={2} className="navItem" onClick={redirect}>
-           <h5 className="navText" data-location="/projects">Project Vault</h5>
-           </Col>
-           <Col sm={2} className="navItem" onClick={redirect}>
-           <h5 className="navText" data-location="/contact">Contact Me</h5>
-           </Col>
-           <Col sm={2} className="navItem" onClick={redirect}>
-           <h5 className="navText" data-location="/resume">Resume</h5>
-           </Col>
-       </Row>
+       <div className="navBar">
+           <div sm={2} className="navItem">
+           <h3 onClick={redirect} data-location="/">Vincent Favorito</h3>
+           </div>
+           <div sm={2} className="navItem">
+           <h5 onClick={redirect} className="navText" data-location="/projects">Project Vault</h5>
+           </div>
+           <div sm={2} className="navItem">
+           <h5 onClick={redirect} className="navText" data-location="/contact">Contact Me</h5>
+           </div>
+       </div>
     );
 };
 
