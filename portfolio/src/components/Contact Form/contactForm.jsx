@@ -7,7 +7,8 @@ function ContactForm() {
     return(
         <Row>
                 <Col className="contactForm" sm={6}>
-                    <h1 className="formHead">Reach out to me</h1>
+                    <h1 className="formHead">Contact Me</h1>
+                    <img alt="email Icon" src="https://img.icons8.com/fluent/48/4a90e2/email-open.png" className="emailIcon" />
                     <form action="https://getform.io/f/528fca86-57bc-44f3-a37f-7903a150d04b" method="POST">
                         <div className="form-group">
                             <label htmlFor="nameLine" className="textStyle">Name:</label>
