@@ -1,0 +1,10 @@
+.contactCard{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(108,154,237,0.7122199221485469) 100%);
+}
+.cardHeader{
+    text-align: center;
+}
+.cardText{
+    text-align: center;
+}

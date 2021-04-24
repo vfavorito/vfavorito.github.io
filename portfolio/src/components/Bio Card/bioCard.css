@@ -1,8 +1,4 @@
 .bioCard{
-    position:relative;
-    left:15px;
-    top:15px;
-    width:60%;
     background: rgb(255,255,255);
     background: linear-gradient(315deg, rgba(255,255,255,.75) 0%, rgba(108,154,237,.75) 100%);
 }
