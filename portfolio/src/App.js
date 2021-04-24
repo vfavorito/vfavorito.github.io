@@ -3,7 +3,8 @@ import { BrowserRouter, Switch, Route } from "react-router-dom"
 import Home from "./pages/Home/home";
 import Projects from "./pages/Projects/projects";
 import Contact from "./pages/Contact/contact";
-import Navigation from "./components/Navbar/navbar.jsx";
+import Navigation from "./components/Navbar/navbar";
+import Footer from "./components/Footer/footer"
 
 
 
@@ -12,6 +13,7 @@ function App() {
   return (
     <div>
       <Navigation />
+      <Footer />
       <BrowserRouter>
         <Switch>
           <Route exact path="/">

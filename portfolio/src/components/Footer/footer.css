@@ -1,0 +1,16 @@
+.footer{
+    background-color: rgb(158, 158, 158);
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:8px;
+}
+.footerIcon{
+    display: inline-block;
+    width: 30px;
+}
+.footerText{
+    display: inline-block;
+    font-size: large;
+}
