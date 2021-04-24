@@ -2,6 +2,7 @@
     background-color: rgb(158, 158, 158);
     position:sticky;
     top:0;
+    z-index: 2;
 }
 .navItem{
     display: inline-block;

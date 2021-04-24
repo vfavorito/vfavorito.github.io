@@ -10,14 +10,17 @@ function Navigation() {
 
     return (
        <div className="navBar">
-           <div sm={2} className="navItem">
+           <div className="navItem">
            <h3 onClick={redirect} data-location="/">Vincent Favorito</h3>
            </div>
-           <div sm={2} className="navItem">
+           <div className="navItem">
            <h5 onClick={redirect} className="navText" data-location="/projects">Project Vault</h5>
            </div>
-           <div sm={2} className="navItem">
+           <div className="navItem">
            <h5 onClick={redirect} className="navText" data-location="/contact">Contact Me</h5>
+           </div>
+           <div className="navItem">
+           <h5 onClick={redirect} className="navText" data-location="/resume">Resume</h5>
            </div>
        </div>
     );

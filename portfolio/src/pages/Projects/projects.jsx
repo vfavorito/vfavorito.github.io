@@ -3,9 +3,9 @@ import "./projects.css"
 
 function Projects() {
 
-    return(
+    return (
         <div className="projects">
-        <h1>Project Page</h1>
+            <h1>Project Page</h1>
         </div>
     )
 }
