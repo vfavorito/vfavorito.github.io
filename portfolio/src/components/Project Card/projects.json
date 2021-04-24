@@ -1,0 +1,52 @@
+{
+    "projects": [
+        {
+            "orientation": "left",
+            "title": "Orcastrator",
+            "description": "Orcastrator is a custom group oriented app.  Upon logging in with Passport via local or OAuth stretegy you are able to create a group with any parameters you desire.  The group is saved via mongo and then you can invite other people, via their username, to your group.  After selecting one of your groups, you are entered into a live chat room with anyone else who is also in that group.",
+            "image": "OrcaPic",
+            "liveLink": "https://orcastrator.herokuapp.com/",
+            "repoLink": "https://github.com/vfavorito/Orcastrator"
+        },
+        {
+            "orientation": "right",
+            "title": "PŌCHIDOEGGU",
+            "description": "Pōchidoeggu lets you create an account which is saved via MySQL then login using Passport to authenticate.  Once logged in you are able to play with a virtual pet with css animations to feed, walk, or sleep your pet.",
+            "image": "PochiPic",
+            "liveLink": "https://pochidoeggu.herokuapp.com/",
+            "repoLink": "https://github.com/vfavorito/Pochidoeggu"
+        },
+        {
+            "orientation":"left",
+            "title": "Marvel Cards",
+            "description": "Marvel character cards is an app that allows you to search marvel characters.  Upon selection of a character a theme song is played and the user is given the ability to make a card of that character.",
+            "image": "MarvelPic",
+            "liveLink": "https://ifeasome.github.io/Marvel-Cards/",
+            "repoLink": "https://github.com/vfavorito/Marvel-Cards"
+        },
+        {   
+            "orientation":"right",
+            "title": "Budget Tracker",
+            "description": "Budget Tracker is a progressive web application.  It is a simple app that allows the depositing and withdrawl of \"funds\".  If you are not connected to the internet at a time of withdrawl or deposit the transaction is saved via an IndexedDB and sent when you once again establish a connection.",
+            "image": "BudgetPic",
+            "liveLink": "https://vfavorito-budget-tracker.herokuapp.com/",
+            "repoLink": "https://github.com/vfavorito/budget-tracker"
+        },
+        {
+            "orientation":"left",
+            "title": "vinnieWeather",
+            "description": "vinnieWEATHER is an app that displays a weather dashboard. The User is able to add any city to the dashboard and upon selecting a city current weather is displayed as well as a five day forecast.",
+            "image": "WeatherPic",
+            "liveLink": "https://vfavorito.github.io/weather-app/",
+            "repoLink": "https://github.com/vfavorito/weather-app"
+        },
+        {
+            "orientation":"right",
+            "title": "Employee Directory",
+            "description": "Employee Directory is a React app that auto populates a group of employees and creates an organized table of all their Info.  The table can be sorted Alphabetically by first or last name.  You can also search for an employee by first or last name.",
+            "image": "DirectoryPic",
+            "liveLink": "https://vfavorito.github.io/react-employee-directory/",
+            "repoLink": "https://github.com/vfavorito/react-employee-directory"
+        }
+    ]
+}

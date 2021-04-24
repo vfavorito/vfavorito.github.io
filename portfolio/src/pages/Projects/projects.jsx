@@ -1,11 +1,12 @@
 import React from "react";
 import "./projects.css"
+import ProjectCard from "../../components/Project Card/projectCard";
 
 function Projects() {
 
     return (
         <div className="projects">
-            <h1>Project Page</h1>
+            <ProjectCard />
         </div>
     )
 }
