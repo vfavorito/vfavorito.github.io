@@ -24,3 +24,9 @@
     float:right;
     margin-right:50px;
 }
+.techCard{
+    width:60%;
+    position:relative;
+    left:15px;
+    top:71px;
+}

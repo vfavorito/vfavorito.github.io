@@ -1,10 +1,10 @@
 import React from "react";
 import "./languageCard.css";
-import HTML5Icon from "./Language Pics/html5Icon.png";
-import CSS3Icon from "./Language Pics/css3Icon.png";
-import JavascriptIcon from "./Language Pics/javascriptIcon.png";
-import JQueryIcon from "./Language Pics/jqueryIcon.png";
-import ReactIcon from "./Language Pics/reactIcon.png";
+import HTML5Icon from "./Language Icons/html5Icon.png";
+import CSS3Icon from "./Language Icons/css3Icon.png";
+import JavascriptIcon from "./Language Icons/javascriptIcon.png";
+import JQueryIcon from "./Language Icons/jqueryIcon.png";
+import ReactIcon from "./Language Icons/reactIcon.png";
 
 function LanguageCard() {
     const languages = [
