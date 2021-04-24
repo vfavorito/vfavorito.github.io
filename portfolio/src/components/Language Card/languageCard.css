@@ -1,0 +1,17 @@
+.languageCard{
+    background: rgb(255,255,255);
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(108,154,237,0.7122199221485469) 100%);
+}
+.cardHeader{
+    text-align: center;
+}
+.languageIcon{
+    display: inline-block;
+    width:45px;
+    margin-left:36%;
+    margin-right:5px;
+}
+.languageText{
+    display:inline-block;
+    font-size: large;
+}

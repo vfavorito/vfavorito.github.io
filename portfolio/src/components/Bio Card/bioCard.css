@@ -1,6 +1,7 @@
 .bioCard{
     background: rgb(255,255,255);
     background: linear-gradient(315deg, rgba(255,255,255,.75) 0%, rgba(108,154,237,.75) 100%);
+    padding:5px;
 }
 .bioPic{
     width:190px;
