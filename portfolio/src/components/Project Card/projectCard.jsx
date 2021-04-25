@@ -58,7 +58,8 @@ function ProjectCard() {
                             <h2>{project.title}</h2>
                             <img src={PicSrc(project.image)} alt={project.title} className="projectImage" />
                             <p>{project.description}</p>
-                            <a href={project.repoLink} target="_blank" rel="noreferrer" className="projectLink">Repository</a>
+                            <a href={project.repoLink} target="_blank" rel="noreferrer" className="projectLink">{project.title} Repository</a>
+                            <br />
                             <a href={project.liveLink} target="_blank" rel="noreferrer" className="projectLink">{project.title} Link</a>
                         </div>
                     </Col>
