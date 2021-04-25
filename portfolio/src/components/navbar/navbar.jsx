@@ -6,7 +6,7 @@ function Navigation() {
 
     let redirect = (event) => {
         let target = event.target.dataset.location;
-        window.location.assign("http:localhost:3000" + target);
+        window.location.assign(target);
     };
 
     return (
