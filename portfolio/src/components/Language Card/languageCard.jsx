@@ -18,7 +18,7 @@ function LanguageCard() {
         <div className="languageCard">
             <h4 className="cardHeader">Language Proficiencies</h4>
             {languages.map(language =>
-                <div>
+                <div key={language.Language}>
                     <img className="languageIcon"
                         src={language.Icon}
                         alt={language.Language + "icon"}

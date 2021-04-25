@@ -20,7 +20,7 @@ function ResumeCard() {
             <h4 className="centerHeaders">Technical Skills:</h4>
             <div className="skillList">
                 {techSkills.map(skill =>
-                    <p className="techSkills">{skill} | </p>
+                    <p className="techSkills" key={skill}>{skill} | </p>
                 )}
                 MERN
             </div>

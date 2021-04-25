@@ -1,26 +1,15 @@
-.bioCard{
-    display: inline-block;
-    position:relative;
-    left:15px;
-    top:15px;
-    width:60%;
+.bioCard, .contactCard{
+    margin:25px;
 }
-.contactCard{
-    position:relative;
-    float:right;
-    margin-right:50px;
-    margin-top:15px;
-    width:30%;
+
+@media screen and (min-width:800px) {
+    .languageCard{
+        position:relative;
+        bottom:70px;
+    }
 }
-.languageCard{
-    position:relative;
-    width:30%;
-    float:right;
-    margin-right:50px;
-}
-.techCard{
-    width:60%;
-    position:relative;
-    left:15px;
-    top:71px;
-}
+.techCard, .languageCard{
+    margin-top:25px;
+    margin-right:25px;
+    margin-left:25px;
+} 

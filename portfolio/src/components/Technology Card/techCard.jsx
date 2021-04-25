@@ -9,7 +9,7 @@ function TechCard() {
             
                 <h4 className="cardHeader">Technology Proficiencies</h4>
                 {technologies.map(tech =>
-                    <p className="technology">{tech}</p>
+                    <p className="technology" key={tech}>{tech}</p>
                 )}
             
         </div>
