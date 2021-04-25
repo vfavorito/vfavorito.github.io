@@ -7,6 +7,7 @@ import MarvelPic from "./Project Pics/marvelPic.PNG";
 import BudgetPic from "./Project Pics/budgetPic.PNG";
 import WeatherPic from "./Project Pics/weatherPic.PNG";
 import DirectoryPic from "./Project Pics/directoryPic.PNG";
+import {Row, Col} from "react-bootstrap";
 
 
 function ProjectCard() {
@@ -51,13 +52,17 @@ function ProjectCard() {
     return (
         <div>
             {Projects.projects.map(project =>
-                <div className={setClasses(project.orientation)} key={project.title}>
-                    <h2>{project.title}</h2>
-                    <img src={PicSrc(project.image)} alt={project.title} className="projectImage" />
-                    <p>{project.description}</p>
-                    <a href={project.repoLink} target="_blank" rel="noreferrer" className="projectLink">Repository</a>
-                    <a href={project.liveLink} target="_blank" rel="noreferrer" className="projectLink">{project.title} Link</a>
-                </div>
+                <Row key={project.title}>
+                    <Col md={7} sm={12}>
+                        <div className={setClasses(project.orientation)}>
+                            <h2>{project.title}</h2>
+                            <img src={PicSrc(project.image)} alt={project.title} className="projectImage" />
+                            <p>{project.description}</p>
+                            <a href={project.repoLink} target="_blank" rel="noreferrer" className="projectLink">Repository</a>
+                            <a href={project.liveLink} target="_blank" rel="noreferrer" className="projectLink">{project.title} Link</a>
+                        </div>
+                    </Col>
+                </Row>
             )}
         </div>
     )

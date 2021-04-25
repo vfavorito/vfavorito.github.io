@@ -1,20 +1,9 @@
 .project{
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(108,154,237,0.7122199221485469) 100%);
-    width:60%;
     text-align: center;
-    display:block;
     margin-bottom:25px;
     margin-top:25px;
-}
-.projectRight{
-    position: relative;
-    left:35%;
-    margin-right:20px;
-}
-.projectLeft{
-    position:relative;
-    left:5%;
 }
 .projectImage{
     width:60%;
@@ -27,3 +16,18 @@
 p{
     font-size: large;
 }
+@media screen and (min-width:800px) {
+    .projectRight{
+        position: relative;
+        left:55%;
+        margin-right:20px;
+    }
+    .projectLeft{
+        position:relative;
+        left:20%;
+    }
+}
+
+
+
+

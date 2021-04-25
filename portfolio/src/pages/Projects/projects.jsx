@@ -1,13 +1,15 @@
 import React from "react";
-import "./projects.css"
 import ProjectCard from "../../components/Project Card/projectCard";
+import { Container } from "react-bootstrap";
 
 function Projects() {
 
     return (
-        <div className="projects">
-            <ProjectCard />
-        </div>
+        <Container fluid>
+            <div className="projects">
+                <ProjectCard />
+            </div>
+        </Container>
     )
 }
 
