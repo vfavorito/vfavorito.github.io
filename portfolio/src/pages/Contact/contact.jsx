@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap"
 function Contact() {
 
     return (
-        <Container fluid className="contact">
+        <Container fluid >
             <ContactForm />
         </Container>
     )
