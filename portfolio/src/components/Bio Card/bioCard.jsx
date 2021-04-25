@@ -6,8 +6,8 @@ function BioCard() {
 
     return (
         <div className="bioCard">
-            <img alt="Vincent Favorito" src={BioPic} className="bioPic" />
-            <p className="bioText">
+            <img alt="Vincent Favorito" src={BioPic} className="bioPic" id="bioPic" />
+            <p className="bioText" id="bioText">
                 My name is Vincent Favorito.  I currently live in Eagan, Minnesota but I'm looking to relocate to Round Rock, Texas.
                 <br />
                 <br />

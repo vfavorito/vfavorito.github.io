@@ -8,10 +8,15 @@
 .languageIcon{
     display: inline-block;
     width:45px;
-    margin-left:36%;
+    margin-left:32%;
     margin-right:5px;
 }
 .languageText{
     display:inline-block;
     font-size: large;
+}
+@media screen and (max-width:400px) {
+    .languageCard{
+        margin-bottom:15px;
+    }
 }
