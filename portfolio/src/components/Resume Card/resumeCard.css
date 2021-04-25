@@ -16,3 +16,7 @@
 .leftHeaders{
     text-decoration: underline;
 }
+.download{
+    position:relative;
+    bottom:4px;
+}
