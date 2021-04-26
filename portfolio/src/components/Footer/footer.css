@@ -1,0 +1,12 @@
+.footer{
+    background-color: rgb(158, 158, 158);
+    text-align: center;
+}
+.footerIcon{
+    display: inline-block;
+    width: 30px;
+}
+.footerText{
+    display: inline-block;
+    font-size: large;
+}

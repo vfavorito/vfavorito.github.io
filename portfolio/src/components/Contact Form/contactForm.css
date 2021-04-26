@@ -1,0 +1,21 @@
+.formHead{
+    text-align: center;
+    margin-bottom:15px;
+    position:relative;
+    text-decoration: underline;
+}
+.contactForm{
+    margin-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(108,154,237,0.7122199221485469) 100%);
+}
+.emailIcon{
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+.submitBtn{
+    margin-bottom: 10px;
+}

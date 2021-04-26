@@ -1,0 +1,10 @@
+.resumeCard{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+@media screen and (min-width:800px) {
+    .resumeCard{
+        position:relative;
+        left:10%
+    }
+}
