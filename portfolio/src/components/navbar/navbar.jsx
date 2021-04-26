@@ -14,7 +14,7 @@ function Navigation() {
             <Row>
                 <Col sm={12} md={12}>
                     <div>
-                        <div className="navHead navItem">
+                        <div className="navHead navItem" id="navHead">
                             <h3 onClick={redirect} data-location="/">Vincent Favorito</h3>
                         </div>
                         <div className="navItem">

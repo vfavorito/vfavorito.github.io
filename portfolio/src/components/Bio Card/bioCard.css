@@ -14,17 +14,17 @@
     font-size: large;
     display:inline;
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
     #bioText{
         display: block;
         font-size: large;
     }
     #bioPic{
-    float:none;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:10px;
-    margin-bottom:10px; 
+        float:none;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:10px;
+        margin-bottom:10px; 
     }
 }

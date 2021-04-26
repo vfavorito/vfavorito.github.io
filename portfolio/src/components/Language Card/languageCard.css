@@ -15,7 +15,7 @@
     display:inline-block;
     font-size: large;
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
     .languageCard{
         margin-bottom:15px;
     }
