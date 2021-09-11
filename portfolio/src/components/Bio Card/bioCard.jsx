@@ -8,11 +8,11 @@ function BioCard() {
         <div className="bioCard">
             <img alt="Vincent Favorito" src={BioPic} className="bioPic" id="bioPic" />
             <p className="bioText" id="bioText">
-                My name is Vincent Favorito.  I currently live in Eagan, Minnesota but I'm looking to relocate to Round Rock, Texas.
+                My name is Vincent Favorito.  I currently live in Round Rock, Texas.
                 <br />
                 <br />
-                I am currently employed by Coordinated Business Systems as a Copier Technician. As a Copier Technician I build, fix,
-                 and refurbish copiers, but also learned how to go through the troubleshooting process.
+                I was recently employed by Coordinated Business Systems as a Copier Technician. As a Copier Technician I built, fixed,
+                 and refurbished copiers, but also learned how to go through the troubleshooting process.
                  <br />
                  <br />
                 After completing a six month full-stack bootcamp through the University of Minnesota I am looking to begin a career in web-development.

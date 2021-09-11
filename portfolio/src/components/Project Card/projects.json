@@ -10,6 +10,14 @@
         },
         {
             "orientation": "right",
+            "title": "Smash Ultimatum",
+            "description": "Smash Ultimatum is an app that allows users to setup Super Smash Bros. Ultimate Iron Man Arenas and Tournaments.  After Logging in with a Google account, users can view their account stats, leaderboards, as well as create/join Tournaments and Arenas",
+            "image": "SmashPic",
+            "liveLink": "https://smash-ultimatum.herokuapp.com/",
+            "repoLink": "https://github.com/vfavorito/smash-ultimatum"
+        },
+        {
+            "orientation": "left",
             "title": "PŌCHIDOEGGU",
             "description": "Pōchidoeggu lets you create an account which is saved via MySQL then login using Passport to authenticate.  Once logged in you are able to play with a virtual pet with css animations to feed, walk, or sleep your pet.",
             "image": "PochiPic",
@@ -17,7 +25,7 @@
             "repoLink": "https://github.com/vfavorito/Pochidoeggu"
         },
         {
-            "orientation":"left",
+            "orientation":"right",
             "title": "Marvel Cards",
             "description": "Marvel character cards is an app that allows you to search marvel characters.  Upon selection of a character a theme song is played and the user is given the ability to make a card of that character.",
             "image": "MarvelPic",
@@ -25,7 +33,7 @@
             "repoLink": "https://github.com/vfavorito/Marvel-Cards"
         },
         {   
-            "orientation":"right",
+            "orientation":"left",
             "title": "Budget Tracker",
             "description": "Budget Tracker is a progressive web application.  It is a simple app that allows the depositing and withdrawl of \"funds\".  If you are not connected to the internet at a time of withdrawl or deposit the transaction is saved via an IndexedDB and sent when you once again establish a connection.",
             "image": "BudgetPic",
@@ -33,7 +41,7 @@
             "repoLink": "https://github.com/vfavorito/budget-tracker"
         },
         {
-            "orientation":"left",
+            "orientation":"right",
             "title": "vinnieWeather",
             "description": "vinnieWEATHER is an app that displays a weather dashboard. The User is able to add any city to the dashboard and upon selecting a city current weather is displayed as well as a five day forecast.",
             "image": "WeatherPic",
@@ -41,7 +49,7 @@
             "repoLink": "https://github.com/vfavorito/weather-app"
         },
         {
-            "orientation":"right",
+            "orientation":"left",
             "title": "Employee Directory",
             "description": "Employee Directory is a React app that auto populates a group of employees and creates an organized table of all their Info.  The table can be sorted Alphabetically by first or last name.  You can also search for an employee by first or last name.",
             "image": "DirectoryPic",

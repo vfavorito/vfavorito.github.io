@@ -2,6 +2,7 @@ import React from "react";
 import "./projectCard.css";
 import Projects from "./projects.json";
 import OrcaPic from "./Project Pics/orcaPic.PNG";
+import SmashPic from "./Project Pics/smashPic.PNG";
 import PochiPic from "./Project Pics/pochiPic.PNG";
 import MarvelPic from "./Project Pics/marvelPic.PNG";
 import BudgetPic from "./Project Pics/budgetPic.PNG";
@@ -28,6 +29,9 @@ function ProjectCard() {
         switch (imgString) {
             case "OrcaPic":
                 return OrcaPic;
+            
+            case "SmashPic":
+                return SmashPic;
 
             case "PochiPic":
                 return PochiPic;
