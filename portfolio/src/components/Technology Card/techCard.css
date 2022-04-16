@@ -1,6 +1,7 @@
 .techCard{
     background: rgb(255,255,255);
     background: linear-gradient(225deg, rgba(255,255,255,1) 0%, rgba(108,154,237,0.7122199221485469) 100%);
+    padding:25px;
 }
 .cardHeader{
     text-align: center;
@@ -8,5 +9,5 @@
 .technology{
     display:inline-block;
     font-size: large;
-    margin:30px;
+    margin:28px;
 }

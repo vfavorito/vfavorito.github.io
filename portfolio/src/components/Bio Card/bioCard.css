@@ -1,18 +1,27 @@
 .bioCard{
     background: rgb(255,255,255);
     background: linear-gradient(315deg, rgba(255,255,255,.75) 0%, rgba(108,154,237,.75) 100%);
-    padding:5px;
+    padding:25px;
+    font-size:19px;
 }
 .bioPic{
     width:190px;
-    float:left;
-    margin-left:10px;
-    margin-right:15px;
-    margin-top:10px;
+    height:calc(190px * (286/233))
 }
 .bioText{
     font-size: large;
     display:inline;
+}
+.textContainer{
+    margin-left:25px;
+}
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottomText{
+    margin-top:20px;
 }
 @media screen and (max-width:450px) {
     #bioText{

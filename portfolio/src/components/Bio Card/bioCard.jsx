@@ -6,18 +6,23 @@ function BioCard() {
 
     return (
         <div className="bioCard">
-            <img alt="Vincent Favorito" src={BioPic} className="bioPic" id="bioPic" />
-            <p className="bioText" id="bioText">
-                My name is Vincent Favorito.  I currently live in Round Rock, Texas.
-                <br />
-                <br />
-                I was recently employed by Coordinated Business Systems as a Copier Technician. As a Copier Technician I built, fixed,
-                 and refurbished copiers, but also learned how to go through the troubleshooting process.
-                 <br />
-                 <br />
-                After completing a six month full-stack bootcamp through the University of Minnesota I am looking to begin a career in web-development.
-                In the bootcamp I learned how to pick up new technologies/languages and work with them in a fast paced environment.
-            </p>
+            <div className="flexContainer">
+                <img alt="Vincent Favorito" src={BioPic} className="bioPic" id="bioPic" />
+                <div className="textContainer">
+                    <div>My name is Vincent Favorito and I am located in Round Rock, Texas.</div>
+                    <br />
+                    <div>
+                        I am currently employed by Conversion Fanatics as a front-end CRO jQuery developer.  As a CRO developer I am primarily in charge of building A/B tests.
+                        These tests serve the purpose of creating a better user experience and boosting website performance.  Through communication with clients I focus on
+                        incorporating their brand's style into every experiment conducted.
+                    </div>
+                </div>
+            </div>
+            <div className="bottomText">
+                I have built and run A/B tests on a number of platforms including Convert, VWO, Optimizely, and Dynamic Yield.
+                Currently I specialize in front end-development, but I also have knowledge of back-end processes that I learned from a six-month full-stack coding bootcamp
+                through the University of Minnesota.
+            </div>
         </div>
 
     )

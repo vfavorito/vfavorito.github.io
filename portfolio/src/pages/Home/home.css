@@ -1,7 +1,18 @@
 .bioCard, .contactCard{
     margin:25px;
 }
-
+.bottomRow{
+    height: 332px;
+}
+.bottomCol{
+    height:332px;
+}
+.customRow{
+    justify-content: center;
+    max-width:1500px;
+    margin-left:auto !important;
+    margin-right:auto !important;
+}
 @media screen and (min-width:800px) {
     .languageCard{
         position:relative;

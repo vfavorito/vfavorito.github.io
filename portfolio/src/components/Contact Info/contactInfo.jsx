@@ -7,11 +7,13 @@ function ContactInfo(){
         <div className="contactCard">
             <h4 className="cardHeader">Vincent Favorito</h4>
             <p className="cardText">
-                <br />
-                Email: vince.favorito@gmail.com
-                <br />
-                <br />
-                Phone: (952)-923-0199
+                <div className="contactBold">Email: </div>
+
+                <div>vince.favorito@gmail.com</div>
+
+                <div className="contactBold">Phone: </div>
+
+                <div>(952)-923-0199</div>
             </p>
         </div>
     )

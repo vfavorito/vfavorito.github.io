@@ -9,7 +9,7 @@ function Home() {
 
     return (
         <Container fluid>
-            <Row>
+            <Row className="customRow">
                 <Col sm={12} md={8}>
                     <BioCard className="bioCard" />
                 </Col>
@@ -17,11 +17,11 @@ function Home() {
                     <ContactInfo className="contactCard" />
                 </Col>
             </Row>
-            <Row>
-                <Col sm={12} md={8}>
+            <Row className="customRow bottomRow">
+                <Col className="bottomCol" sm={12} md={8}>
                     <TechCard className="techCard" />
                 </Col>
-                <Col sm={12} md={3}>
+                <Col className="bottomCol" sm={12} md={3}>
                     <LanguageCard className="languageCard" />
                 </Col>
             </Row>

@@ -1,6 +1,9 @@
 .footer{
     background-color: rgb(158, 158, 158);
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footerIcon{
     display: inline-block;
@@ -9,4 +12,6 @@
 .footerText{
     display: inline-block;
     font-size: large;
+    margin-bottom:0 !important;
+    margin-right:5px;
 }

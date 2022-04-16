@@ -11,7 +11,7 @@ function Navigation() {
 
     return (
         <Container className="navBar" fluid>
-            <Row>
+            <Row className="customRow">
                 <Col sm={12} md={12}>
                     <div>
                         <div className="navHead navItem" id="navHead">
